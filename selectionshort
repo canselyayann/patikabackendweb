@@ -1,0 +1,14 @@
+[22, 27, 16, 2, 18, 6] - Başlangıç
+[2, 27, 16, 22, 18, 6] - İlk adım, en küçük eleman 2'yi başa yerleştir
+[2, 6, 16, 22, 18, 27] - İkinci adım, en küçük eleman 6'yı ikinci sıraya yerleştir
+[2, 6, 16, 22, 18, 27] - Üçüncü adım, en küçük eleman zaten 16, yer değiştirme yapma
+[2, 6, 16, 18, 22, 27] - Dördüncü adım, en küçük eleman 18'i dördüncü sıraya yerleştir
+[2, 6, 16, 18, 22, 27] - Beşinci adım, en küçük eleman zaten 22, yer değiştirme yapma
+[2, 6, 16, 18, 22, 27] - Altıncı adım, en küçük eleman zaten 27, yer değiştirme yapma
+Sonuç olarak, [2, 6, 16, 18, 22, 27] olarak sıralanmış bir dizi elde edilir.
+Big-O Gösterimi:
+Selection Sort algoritmasının Big-O gösterimi O(n^2)'dir, burada "n" dizinin eleman sayısını temsil eder.
+18 sayısı Average Casedir.
+
+
+

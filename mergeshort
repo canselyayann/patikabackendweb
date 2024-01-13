@@ -1,0 +1,23 @@
+Dizi: [16, 21, 11, 8, 12, 22]
+
+Adım 1: Dizi ortalanır ve iki alt dizi oluşturulur: [16, 21, 11] ve [8, 12, 22].
+
+Adım 2: Her iki alt dizi için Merge Sort uygulanır.
+
+Sol Alt Dizi [16, 21, 11]:
+Dizi ortalanır: [16] ve [21, 11].
+Her iki alt dizi için Merge Sort uygulanır.
+[16] ve [21, 11] -> [16] ve [11, 21].
+[11, 16, 21]
+Sağ Alt Dizi [8, 12, 22]:
+Dizi ortalanır: [8] ve [12, 22].
+Her iki alt dizi için Merge Sort uygulanır.
+[8] ve [12, 22] -> [8] ve [12, 22].
+[8, 12, 22]
+Adım 3: İki sıralı alt dizi birleştirilir.
+
+[11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+Bu aşamalar sonunda dizi sıralanmış olacaktır: [8, 11, 12, 16, 21, 22]
+
+Big-O Gösterimi:
+Merge Sort algoritmasının Big-O gösterimi O(n log n)'dir, burada "n" dizinin eleman sayısını temsil eder. Bu, Merge Sort'un genellikle etkili ve hızlı bir sıralama algoritması olduğunu gösterir.

@@ -1,0 +1,122 @@
+Verilen dizi [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] ile başlayarak bir Binary Search Tree (BST) oluşturmak için sırayla her eleman eklenir. 
+Aşamalar şu şekildedir:
+
+Ekleme: 7 (Root)
+
+Ağaç: [7]
+Ekleme: 5 (7'nin solu)
+
+Ağaç:
+
+  7
+ /
+5
+Ekleme: 1 (5'in solu)
+
+Ağaç:
+
+  7
+ /
+5
+/
+1
+
+
+Ekleme: 8 (7'nin sağı)
+
+Ağaç:
+
+  7
+ / \
+5   8
+/
+1
+
+
+Ekleme: 3 (5'in sağı)
+
+Ağaç:
+
+  7
+ / \
+5   8
+/ \
+1 3
+
+
+Ekleme: 6 (3'in sağı)
+
+Ağaç:
+
+  7
+ / \
+5   8
+/ \
+1 3
+/
+6
+
+
+Ekleme: 0 (1'in solu)
+
+Ağaç:
+
+  7
+ / \
+5   8
+/ \
+1 3
+6
+/
+0
+
+
+Ekleme: 9 (8'in sağı)
+
+Ağaç:
+
+  7
+ / \
+5   8
+/ \   \
+1 3 9
+\
+6 0
+
+
+Ekleme: 4 (3'ün sağı)
+
+Ağaç:
+
+  7
+ / \
+5   8
+/ \   \
+1 3 9
+\ /
+6 0
+/
+4
+
+Ekleme: 2 (4'ün solu)
+
+Ağaç:
+
+  7
+ / \
+5   8
+/ \
+1 3 9
+\ /
+6 0
+/
+4
+2
+
+
+Bu şekilde verilen diziye göre bir Binary Search Tree oluşturulmuştur.
+
+
+
+
+
